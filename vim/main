@@ -1,0 +1,23 @@
+" This vimrc module covers the basics.  It's included in my ~/.vimrc
+" with a simple "so ~/rc/vim/main"
+
+set hidden          " Allows multiple unwritten buffers
+set number          " Adds line numbers on the left
+set numberwidth=8   " Fixed number of columns for line numbers
+                    " This is useful for copying and pasting with screen,
+                    " which which will copy a block excluding the numbers
+                    " with 'v' (in copy mode)
+set background=dark
+set linebreak
+set autoindent
+set expandtab
+set tabstop=8
+set softtabstop=2
+set shiftwidth=2
+set backspace=2
+set showmatch
+set ruler
+set incsearch
+set columns=86
+set textwidth=78
+syntax on
