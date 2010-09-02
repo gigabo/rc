@@ -1,0 +1,8 @@
+" This is a modified form of a snippet found here:
+"
+" http://stackoverflow.com/questions/235439/vim-80-column-layout-concerns
+"
+" I like to keep my lines to 78 columns or less.  This highlights any
+" portion of a line that exceeds that length in red.
+highlight OverLength ctermbg=red ctermfg=white
+match OverLength /\%79v.\+/

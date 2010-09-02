@@ -24,3 +24,6 @@ syntax on
 
 " This has all of my main command bindings
 so ~/rc/vim/commands
+
+" This highlights everything beyond the 78th column in red :)
+so ~/rc/vim/overlength
