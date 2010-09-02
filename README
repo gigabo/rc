@@ -1,0 +1,5 @@
+Configuration files and such
+
+I want to have some configuration (vim, bash, ...) consistent across
+machines, and it seems like a git repo hosted on github might be a
+good way to do this.
