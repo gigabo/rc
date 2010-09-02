@@ -21,3 +21,6 @@ set incsearch
 set columns=86
 set textwidth=78
 syntax on
+
+" This has all of my main command bindings
+so ~/rc/vim/commands

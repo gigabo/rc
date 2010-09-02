@@ -1,0 +1,5 @@
+map ,l :!pt %<C-M>
+map ,o :set list<Return>
+map ,p :set nolist<Return>
+map ,b :so ~/.vimrc<Return>
+map ,d oprint STDERR "Bo ($0): ${\ __LINE__ }\n";<ESC>
