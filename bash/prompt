@@ -1,1 +1,1 @@
-export PS1="[\\u@\\h:\\W]\$WINDOW\$"
+export PS1="\\u@\\h:\\W\$ "
