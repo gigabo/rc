@@ -4,3 +4,4 @@
 
 . ~/rc/bash/prompt
 . ~/rc/bash/environment
+. ~/rc/bash/completion
