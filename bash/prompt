@@ -1,2 +1,8 @@
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1='\u@\h:\W$(__git_ps1 " (%s)")$ '
+export PS1='\u@\h:\W$(__git_ps1 " (%s)")$(__screen_ps1)$ '
+__screen_ps1 ()
+{
+  if [ "$WINDOW" ]; then
+    echo -n " [$WINDOW]"
+  fi
+}
