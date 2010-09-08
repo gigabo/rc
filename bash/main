@@ -5,3 +5,5 @@
 . ~/rc/bash/prompt
 . ~/rc/bash/environment
 . ~/rc/bash/completion
+
+[ "`uname -a | grep '^Darwin'`" ] && . ~/rc/bash/osx
