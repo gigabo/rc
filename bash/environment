@@ -1,0 +1,11 @@
+
+# don't put duplicate lines in the history. See bash(1) for more options
+export HISTCONTROL=ignoredups
+
+export PAGER=less
+
+export ACK_PAGER="less -r"
+
+export EDITOR=vim
+
+export PATH=~/local/bin:$PATH:~/bin
