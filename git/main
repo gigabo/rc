@@ -1,0 +1,22 @@
+[user]
+    name = Bo Borgerson
+    email = gigabo@gmail.com
+
+[alias]
+    ci = commit -a
+    co = checkout
+    praise = blame
+
+[diff]
+    color = auto
+
+[pager]
+    color = true
+
+[status]
+    color = auto
+
+[sendemail]
+    smtpserver = smtp.gmail.com
+    smtpuser = gigabo@gmail.com
+    smtpssl = true
