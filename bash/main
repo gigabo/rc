@@ -1,11 +1,15 @@
 
-# If not running interactively, don't do anything
-[ -z "$PS1" ] && return
+# Only do this part if running an interactive shell
+if [ -n "$PS1" ]; then
 
-. ~/rc/bash/prompt
-. ~/rc/bash/environment
-. ~/rc/bash/completion
-. ~/rc/bash/aliases
+  . ~/rc/bash/prompt
+  . ~/rc/bash/environment
+  . ~/rc/bash/completion
+  . ~/rc/bash/aliases
+
+  [ "`uname -a | grep '^Darwin'`" ] && . ~/rc/bash/osx
+
+fi
+
+# Do this whether interactive or not
 . ~/rc/bash/rvm
-
-[ "`uname -a | grep '^Darwin'`" ] && . ~/rc/bash/osx
