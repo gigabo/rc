@@ -6,5 +6,6 @@
 . ~/rc/bash/environment
 . ~/rc/bash/completion
 . ~/rc/bash/aliases
+. ~/rc/bash/rvm
 
 [ "`uname -a | grep '^Darwin'`" ] && . ~/rc/bash/osx
