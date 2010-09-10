@@ -1,0 +1,3 @@
+
+alias vscreen="exec screen -a -U -h 5000 -e '^Va'"
+alias ascreen="exec screen -a -U -h 5000"
