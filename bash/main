@@ -6,6 +6,7 @@ if [ -n "$PS1" ]; then
   . ~/rc/bash/environment
   . ~/rc/bash/completion
   . ~/rc/bash/aliases
+  . ~/rc/bash/ruby
   . ~/rc/bash/os/main
 
 fi
