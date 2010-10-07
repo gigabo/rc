@@ -8,6 +8,7 @@ if [ -n "$PS1" ]; then
   . ~/rc/bash/aliases
   . ~/rc/bash/ruby
   . ~/rc/bash/node
+  . ~/rc/bash/ec2
   . ~/rc/bash/os/main
 
 fi
