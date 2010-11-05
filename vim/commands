@@ -1,4 +1,4 @@
-map ,l :!pt %<C-M>
+map ,l :!perl -cw %<C-M>
 map ,o :set list<Return>
 map ,p :set nolist<Return>
 map ,b :so ~/.vimrc<Return>
