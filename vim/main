@@ -1,6 +1,11 @@
 " This vimrc module covers the basics.  It's included in my ~/.vimrc
 " with a simple "so ~/rc/vim/main"
 
+" My personal bundles (runtimepath)
+set rtp^=~/rc/vim/rtp
+
+filetype plugin indent on
+
 set hidden          " Allows multiple unwritten buffers
 set number          " Adds line numbers on the left
 set numberwidth=8   " Fixed number of columns for line numbers
@@ -34,3 +39,5 @@ so ~/rc/vim/commands
 
 " This highlights everything beyond the 78th column in red :)
 so ~/rc/vim/overlength
+
+let g:pydiction_location='~/rc/vim/rtp/ftplugin/pydiction/complete-dict'
