@@ -59,7 +59,7 @@ endif
 
 
 " Make the Tab key do python code completion:
-inoremap <silent> <buffer> <C-M> 
+inoremap <silent> <buffer> <C-J>
          \<C-R>=<SID>SetVals()<CR>
          \<C-R>=<SID>TabComplete('down')<CR>
          \<C-R>=<SID>RestoreVals()<CR>
