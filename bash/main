@@ -7,6 +7,7 @@ if [ -n "$PS1" ]; then
   . ~/rc/bash/completion
   . ~/rc/bash/aliases
   . ~/rc/bash/ruby
+  . ~/rc/bash/python
   . ~/rc/bash/node
   . ~/rc/bash/ec2
   . ~/rc/bash/os/main
