@@ -5,6 +5,7 @@
 set rtp^=~/rc/vim/rtp
 
 filetype plugin indent on
+set nocp
 
 set hidden          " Allows multiple unwritten buffers
 set number          " Adds line numbers on the left
