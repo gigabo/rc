@@ -12,6 +12,7 @@
 
 [pager]
     color = true
+    status = true
 
 [status]
     color = auto
