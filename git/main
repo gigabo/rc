@@ -5,6 +5,7 @@
 [alias]
     ci = commit -a
     co = checkout
+    up = pull --rebase
     praise = blame
 
 [diff]
