@@ -8,6 +8,9 @@
     up = pull --rebase
     praise = blame
 
+[branch]
+    autosetuprebase = always
+
 [diff]
     color = auto
 
