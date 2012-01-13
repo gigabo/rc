@@ -9,3 +9,14 @@ export ACK_PAGER="less -r"
 export EDITOR=vim
 
 export PATH=~/local/bin:$PATH:~/bin
+
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+
+# Amazon stuff
+export AWS_CLOUDFORMATION_HOME=~/local
+export AWS_CREDENTIAL_FILE=~/local/aws-credentials.txt
+export EC2_HOME=~/local
+export JAVA_HOME=/Library/Java/Home
+export EC2_PRIVATE_KEY="$(/bin/ls $EC2_HOME/pk-*.pem)"
+export EC2_CERT="$(/bin/ls $EC2_HOME/cert-*.pem)"
