@@ -13,6 +13,7 @@ set numberwidth=8   " Fixed number of columns for line numbers
                     " This is useful for copying and pasting with screen,
                     " which which will copy a block excluding the numbers
                     " with 'v' (in copy mode)
+set iskeyword+=-    " For CSS... - is a word character
 set background=dark
 set linebreak
 set autoindent
