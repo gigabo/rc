@@ -51,4 +51,5 @@ filetype off
 filetype plugin indent off
 set rtp+=$GOROOT/misc/vim
 filetype plugin indent on
+autocmd BufWritePre *.go :silent Fmt
 syntax on
