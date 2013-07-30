@@ -45,3 +45,10 @@ so ~/rc/vim/overlength
 let g:pydiction_location='~/rc/vim/rtp/ftplugin/pydiction/complete-dict'
 
 let python_highlight_all = 1
+
+" Stuff for golang
+filetype off
+filetype plugin indent off
+set rtp+=$GOROOT/misc/vim
+filetype plugin indent on
+syntax on
