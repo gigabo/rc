@@ -60,4 +60,4 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
 " Nicer omnicomplete invocation and behavior.
 inoremap <c-o> <c-x><c-o>
-se completeopt=longest,menuone
+se completeopt=menuone
