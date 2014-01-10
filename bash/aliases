@@ -1,3 +1,5 @@
 
 alias vscreen="screen -a -U -h 5000 -e '^Va'"
 alias ascreen="screen -a -U -h 5000"
+
+alias ga='ag --pager="less -SR"'
