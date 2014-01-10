@@ -8,7 +8,7 @@ export ACK_PAGER="less -r"
 
 export EDITOR=vim
 
-export PATH=~/local/bin:$PATH:~/bin
+export PATH=~/local/bin:~/local/sbin:$PATH:~/bin
 
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
