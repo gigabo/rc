@@ -1,0 +1,9 @@
+# Use C-v locally.
+unbind C-b
+set -g prefix C-v
+
+# Pass-through for visual block.
+bind-key v send-prefix
+
+set -g history-limit 5000
+set -g visual-bell on
