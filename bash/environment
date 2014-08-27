@@ -20,12 +20,6 @@ source $(brew --prefix nvm)/nvm.sh
 export AWS_CLOUDFORMATION_HOME=~/local
 export AWS_CREDENTIAL_FILE=~/.aws/aws_credential_file
 complete -C aws_completer aws
-export EC2_HOME=~/local
-export JAVA_HOME=/Library/Java/Home
-if [ -f "/bin/ls $EC2_HOME/pk-*.pem" ]; then
-  export EC2_PRIVATE_KEY="$(/bin/ls $EC2_HOME/pk-*.pem)"
-  export EC2_CERT="$(/bin/ls $EC2_HOME/cert-*.pem)"
-fi
 
 # Go stuff
 export GOPATH=$HOME/go
