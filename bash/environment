@@ -19,6 +19,7 @@ source $(brew --prefix nvm)/nvm.sh
 # Amazon stuff
 export AWS_CLOUDFORMATION_HOME=~/local
 export AWS_CREDENTIAL_FILE=~/.aws/aws_credential_file
+complete -C aws_completer aws
 export EC2_HOME=~/local
 export JAVA_HOME=/Library/Java/Home
 if [ -f "/bin/ls $EC2_HOME/pk-*.pem" ]; then
