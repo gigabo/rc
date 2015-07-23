@@ -28,7 +28,7 @@ set columns=86
 set textwidth=78
 syntax on
 
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 
 runtime! ftdetect/*.vim
 au BufNewFile,BufRead *.mustache        setf mustache
@@ -37,6 +37,9 @@ au BufRead,BufNewFile *.scss set filetype=scss
 
 " This has all of my main command bindings
 so ~/rc/vim/commands
+
+" Syntastic config
+so ~/rc/vim/syntastic
 
 " This highlights everything beyond the 78th column in red :)
 so ~/rc/vim/overlength
