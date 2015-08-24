@@ -28,3 +28,6 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 # Docker stuff
 export DOCKER_HOST=tcp://192.168.59.103:2375
+
+# Node stuff
+export NODE_REPL_HISTORY_FILE=~/.nodereplhistory
