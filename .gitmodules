@@ -4,3 +4,6 @@
 [submodule "vim/rtp/bundle/vim-sensible"]
 	path = vim/rtp/bundle/vim-sensible
 	url = git://github.com/tpope/vim-sensible.git
+[submodule "vim/rtp/bundle/syntastic"]
+	path = vim/rtp/bundle/syntastic
+	url = git@github.com:scrooloose/syntastic.git
