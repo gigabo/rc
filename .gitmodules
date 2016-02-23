@@ -13,3 +13,6 @@
 [submodule "vim/rtp/bundle/vim-fugitive"]
 	path = vim/rtp/bundle/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive.git
+[submodule "vim/rtp/bundle/vim-gitgutter"]
+	path = vim/rtp/bundle/vim-gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
