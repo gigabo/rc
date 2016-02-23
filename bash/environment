@@ -10,6 +10,8 @@ export EDITOR=vim
 
 export PATH=~/local/bin:~/local/sbin:$PATH:~/bin
 
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
