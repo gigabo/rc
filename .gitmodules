@@ -19,3 +19,6 @@
 [submodule "vim/rtp/bundle/ctrlp.vim"]
 	path = vim/rtp/bundle/ctrlp.vim
 	url = git@github.com:ctrlpvim/ctrlp.vim.git
+[submodule "vim/rtp/bundle/vim-commentary"]
+	path = vim/rtp/bundle/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
