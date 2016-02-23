@@ -10,3 +10,6 @@
 [submodule "vim/rtp/bundle/vim-airline"]
 	path = vim/rtp/bundle/vim-airline
 	url = git@github.com:vim-airline/vim-airline.git
+[submodule "vim/rtp/bundle/vim-fugitive"]
+	path = vim/rtp/bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
