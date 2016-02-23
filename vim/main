@@ -44,6 +44,9 @@ so ~/rc/vim/syntastic
 " Airline config
 so ~/rc/vim/airline
 
+" CTRL-P config
+so ~/rc/vim/ctrlp
+
 " This highlights everything beyond the 78th column in red :)
 so ~/rc/vim/overlength
 

@@ -16,3 +16,6 @@
 [submodule "vim/rtp/bundle/vim-gitgutter"]
 	path = vim/rtp/bundle/vim-gitgutter
 	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "vim/rtp/bundle/ctrlp.vim"]
+	path = vim/rtp/bundle/ctrlp.vim
+	url = git@github.com:ctrlpvim/ctrlp.vim.git
