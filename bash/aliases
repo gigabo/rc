@@ -3,3 +3,5 @@ alias vscreen="screen -a -U -h 5000 -e '^Va'"
 alias ascreen="screen -a -U -h 5000"
 
 alias ga='ag --pager="less -SR"'
+
+alias dockerup='bash /Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh'
