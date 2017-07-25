@@ -69,3 +69,7 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 " Nicer omnicomplete invocation and behavior.
 inoremap <c-o> <c-x><c-o>
 se completeopt=menuone
+
+" Stuff for rust
+let g:rustfmt_autosave = 1
+
