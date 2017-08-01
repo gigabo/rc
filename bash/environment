@@ -16,7 +16,11 @@ export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
 export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+
+if [ "`which brew`" ]; then
+	source $(brew --prefix nvm)/nvm.sh
+fi
+
 
 # Amazon stuff
 export AWS_CLOUDFORMATION_HOME=~/local
