@@ -31,3 +31,20 @@ else
 	echo "git ok"
 fi
 
+if grep --quiet "so ~/rc/vim/main" ~/.vimrc; then
+	echo "vim previously ok"
+else
+	if [ -f ~/.vimrc ]; then
+		if [ ! -f ~/.vimrc.orig ]; then
+			mv ~/.vimrc ~/.vimrc.orig
+		fi
+		echo "so ~/.vimrc.orig" >> ~/.vimrc
+	fi
+	echo "so ~/rc/vim/main" >> ~/.vimrc
+	(
+		cd ~/rc
+		git submodule update --init
+	)
+	echo "vim ok"
+fi
+
