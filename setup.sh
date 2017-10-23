@@ -13,3 +13,21 @@ else
 	echo "bash ok"
 fi
 
+if grep --quiet "~/rc/git/main" ~/.gitconfig; then
+	echo "git previously ok"
+else
+	if [ -f ~/.gitconfig ]; then
+		if [ ! -f ~/.gitconfig.orig ]; then
+			mv ~/.gitconfig ~/.gitconfig.orig
+		fi
+		echo "[include]" >> ~/.gitconfig
+		echo "    path = ~/rc/git/main" >> ~/.gitconfig
+		echo "[include]" >> ~/.gitconfig
+		echo "    path = ~/.gitconfig.orig" >> ~/.gitconfig
+	else
+		echo "[include]" >> ~/.gitconfig
+		echo "    path = ~/rc/git/main" >> ~/.gitconfig
+	fi
+	echo "git ok"
+fi
+
