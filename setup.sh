@@ -48,3 +48,15 @@ else
 	echo "vim ok"
 fi
 
+if grep --quiet "source-file ~/rc/tmux/main" ~/.tmux.conf; then
+	echo "tmux previously ok"
+else
+	if [ -f ~/.tmux.conf ]; then
+		if [ ! -f ~/.tmux.conf.orig ]; then
+			mv ~/.tmux.conf ~/.tmux.conf.orig
+		fi
+		echo "source-file ~/.tmux.conf.orig" >> ~/.tmux.conf
+	fi
+	echo "source-file ~/rc/tmux/main" >> ~/.tmux.conf
+	echo "tmux ok"
+fi
