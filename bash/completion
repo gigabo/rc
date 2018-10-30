@@ -1,9 +1,5 @@
-if [ "`which brew`" ]; then
-  if [ -d `brew --prefix`/etc/bash_completion.d ]; then
-    for f in $(ls `brew --prefix`/etc/bash_completion.d)
-      do . `brew --prefix`/etc/bash_completion.d/$f
-    done
-  fi
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+    . `brew --prefix`/etc/bash_completion
 fi
 
 if [ -f /etc/bash_completion ]; then
