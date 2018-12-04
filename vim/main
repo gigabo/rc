@@ -38,9 +38,6 @@ au BufRead,BufNewFile *.scss set filetype=scss
 " This has all of my main command bindings
 so ~/rc/vim/commands
 
-" Syntastic config
-so ~/rc/vim/syntastic
-
 " Airline config
 so ~/rc/vim/airline
 
