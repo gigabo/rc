@@ -16,11 +16,6 @@ set numberwidth=8   " Fixed number of columns for line numbers
 set iskeyword+=-    " For CSS... - is a word character
 set background=dark
 set linebreak
-set autoindent
-set expandtab
-set tabstop=8
-set shiftwidth=2
-set backspace=2
 set showmatch
 set ruler
 set incsearch

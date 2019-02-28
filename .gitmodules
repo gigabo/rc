@@ -22,3 +22,6 @@
 [submodule "vim/rtp/bundle/ale"]
 	path = vim/rtp/bundle/ale
 	url = https://github.com/w0rp/ale.git
+[submodule "vim/rtp/bundle/vim-sleuth"]
+	path = vim/rtp/bundle/vim-sleuth
+	url = git@github.com:tpope/vim-sleuth.git
