@@ -4,7 +4,6 @@
 " My personal bundles (runtimepath)
 set rtp^=~/rc/vim/rtp
 
-filetype plugin indent on
 set nocp
 
 set hidden          " Allows multiple unwritten buffers
@@ -16,12 +15,7 @@ set numberwidth=8   " Fixed number of columns for line numbers
 set iskeyword+=-    " For CSS... - is a word character
 set background=dark
 set linebreak
-set showmatch
-set ruler
-set incsearch
-set columns=86
 set textwidth=78
-syntax on
 
 call pathogen#infect()
 
