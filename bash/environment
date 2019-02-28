@@ -34,3 +34,6 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 # Node stuff
 export NODE_REPL_HISTORY_FILE=~/.nodereplhistory
+
+# FZF stuff
+export FZF_DEFAULT_COMMAND='fd --type f'

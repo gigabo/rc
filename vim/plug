@@ -1,0 +1,9 @@
+" Set up vim-plug plugins
+call plug#begin('~/.vim/plugged')
+
+" Add fzf
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
+
+" Initialize plugin system
+call plug#end()
