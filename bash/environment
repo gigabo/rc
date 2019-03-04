@@ -15,13 +15,6 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
-export NVM_DIR=~/.nvm
-
-if [ "`which brew`" ]; then
-	source $(brew --prefix nvm)/nvm.sh
-fi
-
-
 # Amazon stuff
 export AWS_CLOUDFORMATION_HOME=~/local
 export AWS_CREDENTIAL_FILE=~/.aws/aws_credential_file
