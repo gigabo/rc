@@ -12,6 +12,7 @@ if [ -n "$PS1" ]; then
   . ~/rc/bash/ec2
   . ~/rc/bash/os/main
 
+  fish # Too chicken to switch completely.
 fi
 
 # Do this whether interactive or not
