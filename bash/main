@@ -12,10 +12,6 @@ if [ -n "$PS1" ]; then
   . ~/rc/bash/ec2
   . ~/rc/bash/os/main
 
-  if [ "`which brew`" ]; then
-    fish # Too chicken to switch completely.
-  fi
-
 fi
 
 # Do this whether interactive or not
