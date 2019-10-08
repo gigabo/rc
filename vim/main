@@ -59,3 +59,7 @@ se completeopt=menuone
 " Stuff for rust
 let g:rustfmt_autosave = 1
 
+" ALE
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\}
