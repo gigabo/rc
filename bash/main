@@ -9,7 +9,6 @@ if [ -n "$PS1" ]; then
   . ~/rc/bash/functions
   . ~/rc/bash/ruby
   . ~/rc/bash/python
-  . ~/rc/bash/node
   . ~/rc/bash/ec2
   . ~/rc/bash/os/main
 
