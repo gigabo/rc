@@ -9,6 +9,10 @@ if [ -e "/etc/bash_completion.d/git-prompt" ]; then
   . /etc/bash_completion.d/git-prompt
 fi
 
+if [ -e "/opt/homebrew/etc/bash_completion.d/git-prompt.sh" ]; then
+  . /opt/homebrew/etc/bash_completion.d/git-prompt.sh
+fi
+
 __my_git_ps1 ()
 {
   if [ "`type __git_ps1 2>/dev/null | grep function`" ]; then
