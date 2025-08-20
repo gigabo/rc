@@ -63,3 +63,6 @@ let g:rustfmt_autosave = 1
 let g:ale_linters = {
 \   'javascript': ['eslint'],
 \}
+
+" Stuff for FZF
+set rtp+=/opt/homebrew/opt/fzf
