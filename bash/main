@@ -16,4 +16,5 @@ if [ -n "$PS1" ]; then
 fi
 
 # Do this whether interactive or not
+. ~/rc/bash/nvm
 . ~/rc/bash/rvm
