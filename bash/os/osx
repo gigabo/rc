@@ -7,3 +7,6 @@ fi
 
 # Un-prefixed coreutils
 PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
+
+# Dunno why this doesn't work out of the box anymore. :shrug:
+alias ls='ls --color'
