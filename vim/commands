@@ -7,3 +7,6 @@ map ,s :so ~/.vimrc<Return>
 map ,d oprint STDERR "Bo ($0): ${\ __LINE__ }\n";<ESC>
 map ,t :se ts=2<C-M>:se sw=2<C-M>:se noexpandtab<C-M>
 map ,r :se ts=8 sts=8 sw=8 noexpandtab<C-M>
+
+map ,f :Files<CR>
+map ,b :Buffers<CR>

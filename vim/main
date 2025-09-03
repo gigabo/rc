@@ -22,8 +22,6 @@ au BufRead,BufNewFile *.scss set filetype=scss
 
 so ~/rc/vim/plug
 
-map ; :Files<CR>
-
 " This has all of my main command bindings
 so ~/rc/vim/commands
 
