@@ -10,3 +10,8 @@ map ,r :se ts=8 sts=8 sw=8 noexpandtab<C-M>
 
 map ,f :Files<CR>
 map ,b :Buffers<CR>
+
+" This one is a command abbreviation that expands '%%' into the _directory_
+" that the file referenced by the current buffer lives in.
+" Got this from @fictionic
+cabbr %% <C-R>=expand('%:p:h')<CR>
